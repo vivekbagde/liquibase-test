@@ -1,11 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('remove databaseChangeLog') {
-            steps {
-                sh 'rm -rf $JENKINS_HOME/workspace/LiquibaseDeploymentDemo-Pipeline*'
-            }
-        }
         stage('generateChangelog') {
             environment {
                 SECRET_VALUE = credentials('dbdevops')
