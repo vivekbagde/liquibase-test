@@ -15,3 +15,6 @@ CREATE TABLE "public"."test113" ("id" INTEGER NOT NULL, "name" VARCHAR(255), CON
 -- changeset jenkins:1630410457224-5
 CREATE TABLE "public"."test3" ("id" INTEGER NOT NULL, "name" VARCHAR(255), CONSTRAINT "test3_pkey" PRIMARY KEY ("id"));
 
+-- changeset jenkins:1630410457224-6
+CREATE TABLE "public"."test3321" ("id" INTEGER NOT NULL, "name" VARCHAR(255), CONSTRAINT "test3_pkey" PRIMARY KEY ("id"));
+
